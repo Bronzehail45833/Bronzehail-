@@ -1,6 +1,6 @@
 <?php
 /* Set e-mail recipient */
-$myemail  = "your@email.com";
+$myemail  = "ricky2tricks@gmail.com";
 
 /* Check all form inputs using check_input function */
 if (isset($_GET["submit"])) {
@@ -11,7 +11,7 @@ $message = $_GET['message'];
 else {
   echo $myError;
 }
-$subject = "Report From OlympiaMC";
+$subject = "Report From BronzeWeb";
 
 /* If input is not valid show error message */
 if (!preg_match("/([\w\-]+\@[\w\-]+\.[\w\-]+)/", $email))
